@@ -4,9 +4,6 @@ import shutil
 from datetime import datetime
 
 import pandas as pd
-from openai import OpenAI
-
-client = OpenAI(api_key=os.environ.get("OPENAI_API_KEY"))
 
 HISTORY_SRC = "data/history.json"
 HISTORY_TMP = "/tmp/history.json"
