@@ -1,5 +1,209 @@
 question_id,student_answer,score
-1,Fotosentez bitkilerin ışık kullanarak besin üretmesidir,3
-1,Fotosentez bitkilerle ilgilidir,1
-2,Isı enerji aktarımıdır sıcaklık ise taneciklerin ortalama kinetik enerjisini gösterir,3
-2,Isı ve sıcaklık aynıdır,0
+
+1,"Güneş tutulması dolunayda gece olur.",0
+1,"Ay hilalken güneş tutulması yaşanır.",0
+1,"Güneş tutulması gece geç saatlerde olur.",0
+1,"Ay görünmezken olur ama zamanı fark etmez.",0
+1,"Güneş tutulması Ay batarken olur.",0
+1,"Ay tepede iken güneş tutulması yaşanır.",0
+1,"Ay dolunayken akşam üstü olur.",0
+1,"Ay ve Güneş hiç görünmezken olur.",0
+1,"Ay’ın evresi önemli değildir, her zaman olabilir.",0
+1,"Ay yeni ayda değil, ilk dördünde olur.",0
+1,"Ay kırmızı olduğunda güneş tutulması yaşanır.",0
+1,"Güneş tutulması sabaha karşı gece yarısı olur.",0
+1,"Ay büyürken herhangi bir anda olur.",0
+1,"Ay dolunaydayken gündüz gökyüzü kararır.",0
+1,"Ay yarımken olur.",0
+1,"Güneş tutulması yaz aylarında akşam olur.",0
+1,"Ay Dünya’nın arkasına geçtiğinde güneş tutulması olur.",0
+1,"Ay küçülürken sabaha karşı olur.",0
+1,"Ay görünmüyorsa mutlaka gece tutulma olur.",0
+1,"Ay bir çizgi şeklindeyken güneş tutulması olur.",0
+1,"Ay’ı görmek gerekmez, tutulma gece gerçekleşir.",0
+1,"Ay ters dönmüşken olur.",0
+1,"Ay’ın evresi sürekli değiştiği için tutulma her an olabilir.",0
+1,"Güneş tutulması, Ay dolunayken sabah olur.",0
+1,"Ayın konumu önemli değildir, tutulma rastgele olur.",0
+
+1,"Güneş tutulması yeni aya yakın bir evrede gündüz gerçekleşir.",1
+1,"Ay yeni aya yakınken tutulma olur ama günün zamanı çok değişebilir.",1
+1,"Güneş tutulması Ay’ın güneşle aynı hizaya geldiği zaman olur, genelde gündüz olur.",1
+1,"Yeni aya benzeyen bir evrede ve gündüz vakti olur.",1
+1,"Ay’ın Güneş’in önüne geçebildiği evrede, genelde sabah ya da öğlen görülür.",1
+1,"Ay yeni ay olduğunda ve güneş görünürken olur diye biliyorum.",1
+1,"Ay karanlık halindeyken gündüz ortaya çıkar.",1
+1,"Ay güneş tarafındayken ve gün ışığı varken görülebilir.",1
+1,"Yeni aya yakın bir dönemde günün aydınlık zamanında gerçekleşir.",1
+1,"Ay’ın karanlık yüzü dünyaya dönükken gündüz vakti olur.",1
+1,"Ay yeni ay evresindeyse gündüz olma ihtimali yüksektir.",1
+1,"Ay Güneş ile aynı doğrultudayken gündüz gerçekleşir.",1
+1,"Yeni ayda ve hava kararmadan önce olur genelde.",1
+1,"Ay yeni ay civarındayken sabah ya da öğlen görülebilir.",1
+1,"Ay’ın Güneş’e yakın olduğu dönemde olur ve gündüz vakti fark edilir.",1
+1,"Yeni aya yakın bir evrede olduğu için yalnızca gündüz olabilir diye biliyorum.",1
+1,"Ay karanlıkken gerçekleşir ve genelde gündüz olur.",1
+1,"Ay yeni aya yakınsa günün aydınlık vaktinde gözlenir.",1
+1,"Ay Güneş'e yakınken tutulma olur ve günün erken vakitlerinde görünür.",1
+1,"Ay karanlık göründüğü zamanlarda, gündüz saatlerinde görülebilir.",1
+1,"Yeni aya benzeyen zamanda tutulma olur ama tam zamanı değişebilir.",1
+1,"Ay ile Güneş aynı yöndeyken ve gökyüzü aydınlıkken olur.",1
+1,"Yeni aydayken gündüz ortaya çıktığını duydum.",1
+1,"Ay Güneş’e yakın evredeyken sabah veya öğlen olur.",1
+1,"Ay görünmeyen evredeyken güneş yükselmişken olur.",1
+
+1,"Güneş tutulması yeni ay evresinde ve gündüz saatlerinde görülür.",2
+1,"Yeni ayda, Ay Güneş ile aynı doğrultudayken gündüz gerçekleşir.",2
+1,"Yeni ay evresinde olur ve sadece gündüz gözlemlenir.",2
+1,"Ay yeni aydayken ve Güneş gökyüzündeyken tutulma görülebilir.",2
+1,"Güneş tutulmaları yeni ay zamanında ve gündüz gerçekleşir.",2
+1,"Yeni ay evresinde Ay Güneş’in önüne geçtiğinde gündüz ortaya çıkar.",2
+1,"Yeni ay olurken ve güneş varken tutulma görülebilir.",2
+1,"Ay yeni aydayken gerçekleşir ve gün ışığında görünür.",2
+1,"Yeni ay zamanı, sabah veya öğlen gibi gündüz saatlerinde olur.",2
+1,"Ay yeni ay evresindeyken tutulma gündüz ortaya çıkar.",2
+1,"Yeni ayda olur ve sadece Güneş’in gökyüzünde olduğu zamanda gözlemlenebilir.",2
+1,"Ay yeni aydayken, günün aydınlık bir vaktinde tutulma olur.",2
+1,"Yeni ay sırasında ve gündüz vakti ortaya çıkar.",2
+1,"Yeni ayda Ay Güneş’i örttüğünde tutulma gün içinde görünür.",2
+1,"Yeni ay zamanı ve gündüz gerçekleşir.",2
+1,"Ay yeni ay evresine geldiğinde ve gökyüzü aydınlıkken tutulma olur.",2
+1,"Yeni ay sırasında ve Güneş'in gökyüzünde olduğu saatlerde görünür.",2
+1,"Güneş tutulması Ay yeni aydayken ve gündüz olduğu için görülebilir.",2
+1,"Ay yeni aydayken ve Güneş yukarıdayken tutulma gerçekleşir.",2
+1,"Yeni ayda ve gün içinde izlenebilen bir olaydır.",2
+1,"Ay yeni ay evresindeyken Güneş'i örter ve gündüz olur.",2
+1,"Yeni ay evresinde olup gündüz vakti kaydedilebilir.",2
+1,"Ay yeni aydayken Güneş’in önünden geçtiği için gündüz görünür.",2
+1,"Yeni aydayken gerçekleşir ve Güneş gökyüzündeyse gözlemlenir.",2
+1,"Yeni ay evresinde ve sabah–öğle civarında görülebilir.",2
+
+1,"Güneş tutulması yalnızca yeni ay evresinde ve gündüz saatlerinde görülebilir.",3
+1,"Ay yeni ay konumundayken, Güneş'in önüne geçtiği için tutulma sadece gündüz görünür.",3
+1,"Güneş tutulması, Ay yeni aydayken ve Güneş gökyüzündeyken gerçekleşir.",3
+1,"Bu olay yalnızca Ay’ın yeni ay evresinde ve gün ışığı varken gerçekleşir.",3
+1,"Güneş tutulması, Ay yeni ay konumuna geldiğinde ve Güneş yukarıdayken gözlenebilir.",3
+1,"Ay yeni ay evresinde olduğunda Güneş’i örter ve tutulma gündüz ortaya çıkar.",3
+1,"Tutulma yalnızca yeni ayda olur ve Güneş’in gökyüzünde olduğu saatlerde görünür.",3
+1,"Ay yeni aydayken gerçekleşir ve yalnızca gündüz izlenebilir.",3
+1,"Yeni ay evresinde Ay Güneş’in önüne geçtiği için tutulma gün içinde gözlemlenir.",3
+1,"Güneş tutulmaları sadece yeni ay evresinde ve günün aydınlık zamanında olur.",3
+1,"Ay’ın yeni ayda olması ve Güneş’in ufkun üstünde bulunması gerekir; yani gündüz olur.",3
+1,"Yeni ay evresinde Ay Güneş’i örter ve tutulma yalnızca gündüz görülebilir.",3
+1,"Bu olay Ay yeni aydayken ve Güneş gökyüzündeyken ortaya çıkar.",3
+1,"Güneş tutulması ancak yeni ay zamanında ve gündüz gerçekleşir.",3
+1,"Ay yeni aydayken Güneş’in önünden geçer, bu yüzden tutulma yalnızca gündüz izlenir.",3
+1,"Yeni ay evresinde gerçekleşir ve yalnızca Güneş görünürken gözlenebilir.",3
+1,"Ay’ın yeni ay konumunda olması ve Güneş’in yukarıda olması şarttır; yani gündüz.",3
+1,"Tutulma, Ay’ın yeni ay evresinde Güneş’in önüne geçmesiyle ve gündüz saatlerinde olur.",3
+1,"Güneş tutulması sadece yeni ayda ve gün ışığında gözlemlenebilir.",3
+1,"Ay yeni aydayken Güneş’i örter ve tutulma ancak gündüz görünür.",3
+1,"Olay yeni ay zamanında gerçekleşir ve sadece Güneş gökyüzündeyken fark edilebilir.",3
+1,"Ay yeni aydayken olur ve bu nedenle yalnızca gündüz izlenebilir.",3
+1,"Yeni ayda Ay Güneş’i kapattığında tutulma gün içinde olur.",3
+1,"Güneş tutulması yalnızca yeni ay evresinde ve günün aydınlık zamanlarında gerçekleşir.",3
+1,"Ay yeni aydayken Güneş'in üzerine gelir ve tutulma bu yüzden gündüz görülür.",3
+
+2,"Ay Güneş'in üzerine gölge düşürür.",0
+2,"Güneş Dünya'nın üzerine gölgesini atar.",0
+2,"Tutulmada yıldızların gölgesi birbirine düşer.",0
+2,"Ay kendi gölgesini kendi üzerine düşürür.",0
+2,"Güneş tutulmasında Dünya Güneş'in önüne geçer.",0
+2,"Dünya Ay'ı kapatır ve gölgesi Mars'a düşer.",0
+2,"Gölge oluşmaz, sadece ışık kaybolur.",0
+2,"Güneş kendi gölgesini Dünya'ya yansıtır.",0
+2,"Ay tutulmasında Güneş Ay'ın üzerine gölge düşürür.",0
+2,"Tutulma olduğunda hepsi birbirinin gölgesini oluşturur.",0
+2,"Güneş Ay'ı karartır ve gölgesi Jüpiter'e gider.",0
+2,"Ay tutulmasında Ay Dünya'nın gölgesini gönderir.",0
+2,"Tutulmada gölge olmaz, sadece kararma olur.",0
+2,"Dünya'nın gölgesi Güneş'i örter.",0
+2,"Ay tutulmasında Dünya Ay'ı değil Güneş'i kapatır.",0
+2,"Gölge sırası rastgele değişir.",0
+2,"Güneş tutulmasında Ay değil Dünya gölge oluşturur.",0
+2,"Ay kendi gölgesini Dünya'ya değil güneşe düşürür.",0
+2,"Dünya'nın gölgesi Venüs'ün üzerine gider.",0
+2,"Ay Dünya'nın etrafında dönünce gölge oluşur.",0
+2,"Güneş tutulmasında Dünya Ay'a gölge düşürür.",0
+2,"Tutulmada gölge tamamen kaybolur.",0
+2,"Ay tutulmasında Ay kendi gölgesini Güneş'e gönderir.",0
+2,"Dünya'nın gölgesi Ay yerine Mars'ı kaplar.",0
+2,"Ay gölge oluşturmaz ama tutulma olur.",0
+
+2,"Güneş tutulmasında Ay Güneş'in ışığını engeller ama tam gölgeyi bilmiyorum.",1
+2,"Ay tutulmasında Dünya Ay'a gölge düşürür sanırım ama emin değilim.",1
+2,"Güneş tutulmasında Ay'ın gölgesi Dünya’ya gelir gibi oluyor.",1
+2,"Ay Dünya'nın gölgesine giriyor olabilir.",1
+2,"Tutulmada bir cisim diğerinin önüne geçip gölge yapıyor ama karıştırıyorum.",1
+2,"Ay tutulmasında Dünya'nın gölgesi Ay'a düşüyor olabilir.",1
+2,"Sanırım Güneş tutulmasında Ay'ın gölgesi Dünya’ya geliyor.",1
+2,"Tutulmada gölge hep Ay'a düşüyor diye biliyorum.",1
+2,"Ay tutulmasında Dünya gölge yapıyor olabilir.",1
+2,"Güneş tutulmasında Ay Güneş'i örtüyor ama gölgenin tam kimde olduğunu bilmiyorum.",1
+2,"Ay'ın gölgesi Dünya'ya geliyor olabilir.",1
+2,"Tutulmada bir gölge Dünya’ya, diğerinde Ay’a düşüyor ama hangisi hangisi karıştırıyorum.",1
+2,"Ay tutulmasında Dünya Ay’ın önüne geçiyor sanırım.",1
+2,"Güneş tutulmasında Ay gölge yapıyor olabilir.",1
+2,"Ay tutulmasında Dünya gölge oluşturuyor olabilir.",1
+2,"Güneş tutulmasında Ay, Güneş’in önüne geçip gölge oluşturur gibi.",1
+2,"Dünya'nın gölgesi Ay'a geliyor olabilir.",1
+2,"Ay'ın gölgesi Güneş tutulmasında Dünya’ya düşüyor olabilir.",1
+2,"Tutulmada ışık engelleniyor ama gölge yönlerini karıştırıyorum.",1
+2,"Ay tutulması Dünya’nın gölgesiyle ilgili olabilir.",1
+2,"Güneş tutulmasında Ay gölge düşürür ama tam nereye bilmiyorum.",1
+2,"Ay tutulması Dünya’nın gölgesiyle oluyor gibi.",1
+2,"Ay kendi gölgesini değil de Dünya’nın gölgesine giriyor olabilir.",1
+2,"Tutulmada gölge biri Dünya’ya biri Ay’a düşüyor ama hangisi hangisi emin değilim.",1
+2,"Ay’ın gölgesi Dünya’ya düşüyor olabilir.",1
+
+2,"Güneş tutulmasında Ay’ın gölgesi Dünya'nın üzerine düşer.",2
+2,"Ay tutulmasında Dünya'nın gölgesi Ay'ın üzerine düşer.",2
+2,"Güneş tutulmasında Ay Güneş’i örter ve gölgesi Dünya’ya yansır.",2
+2,"Ay tutulmasında Dünya Ay'ı gölgesiyle karartır.",2
+2,"Güneş tutulmasında Ay gölgesini Dünya'ya düşürür.",2
+2,"Ay tutulmasında Dünya gölgesini Ay’a gönderir.",2
+2,"Güneş tutulmasında Ay, Dünya üzerine gölge bırakır.",2
+2,"Ay tutulması Dünya'nın gölgesinin Ay'a düşmesiyle olur.",2
+2,"Güneş tutulmasında Ay Güneş'in ışığını keser ve gölge Dünya’ya düşer.",2
+2,"Ay tutulmasında Dünya Güneş'in ışığını keser ve Ay'a gölge düşer.",2
+2,"Güneş tutulması Ay’ın gölgesinin Dünya’ya düşmesiyle oluşur.",2
+2,"Ay tutulması Dünya’nın gölgesinin Ay’a ulaşmasıdır.",2
+2,"Ay’ın gölgesi Güneş tutulmasında Dünya’ya ulaşır.",2
+2,"Dünya’nın gölgesi Ay tutulmasında Ay’a ulaşır.",2
+2,"Ay gölgesini Güneş tutulmasında Dünya’ya düşürür.",2
+2,"Dünya kendi gölgesini Ay’a gönderdiğinde Ay tutulması olur.",2
+2,"Güneş tutulmasında Ay’ın gölgesi Dünya’ya ulaşır.",2
+2,"Ay tutulmasında Dünya gölgesini Ay’a yansıtır.",2
+2,"Güneş tutulması Ay gölgesinin Dünya’ya düşmesidir.",2
+2,"Ay tutulması Dünya gölgesinin Ay’a düşmesidir.",2
+2,"Ay gölgesini Güneş tutulmasında Dünya’ya düşürür.",2
+2,"Dünya gölgesini Ay’a düşürdüğünde Ay tutulması gerçekleşir.",2
+2,"Güneş tutulmasında Ay’ın gölgesi Dünya’ya ulaşır, bu yüzden kararma olur.",2
+2,"Ay tutulması Dünya'nın gölgesinin Ay'a düşmesiyle olur.",2
+2,"Ay ve Dünya sırayla birbirlerinin gölgesini alır: Güneş tutulmasında Ay, Ay tutulmasında Dünya gölge yapar.",2
+
+2,"Güneş tutulmasında **Ay’ın gölgesi Dünya’nın üzerine düşer**.",3
+2,"Ay tutulmasında **Dünya’nın gölgesi Ay’ın üzerine düşer**.",3
+2,"Güneş tutulması Ay’ın Dünya’ya gölge düşürmesiyle, Ay tutulması ise Dünya’nın Ay’a gölge düşürmesiyle oluşur.",3
+2,"Güneş tutulmasında Ay Güneş'in ışığını keserek gölgesini Dünya’ya yansıtır.",3
+2,"Ay tutulmasında Dünya Güneş ışığını keser ve gölgesini Ay’a düşürür.",3
+2,"Güneş tutulması, Ay’ın gölgesini Dünya’ya düşürmesiyle gerçekleşir.",3
+2,"Ay tutulması, Dünya'nın gölgesinin Ay’a ulaşmasıyla oluşur.",3
+2,"Güneş tutulmasında Ay gölgesini Dünya’ya gönderir, Ay tutulmasında Dünya gölgesini Ay’a gönderir.",3
+2,"Ay’ın gölgesi Dünya’ya düştüğünde güneş tutulması olur.",3
+2,"Dünya’nın gölgesi Ay’ı kapladığında ay tutulması meydana gelir.",3
+2,"Güneş tutulmasında Ay Dünya üzerine gölge oluşturur; ay tutulmasında Dünya Ay’ı gölge ile karartır.",3
+2,"Ay, Güneş tutulmasında gölgesini Dünya’ya düşürür; Dünya ise Ay tutulmasında gölgesini Ay’a düşürür.",3
+2,"Güneş tutulması Ay’ın, Ay tutulması Dünya’nın gölgesiyle oluşur.",3
+2,"Ay’ın gölgesi Dünya’ya ulaştığında güneş tutulması gözlenir.",3
+2,"Dünya’nın gölgesi Ay’a ulaştığında ay tutulması gözlenir.",3
+2,"Güneş tutulmasında Ay Güneş ışığını keser ve gölgesi Dünya’ya düşer.",3
+2,"Ay tutulmasında Dünya Güneş ışığını keser ve gölgesi Ay’a düşer.",3
+2,"Güneş tutulması Ay’ın gölgesidir; ay tutulması Dünya’nın gölgesidir.",3
+2,"Ay Güneş tutulmasında Dünya’ya gölge bırakır; Dünya ay tutulmasında Ay’a gölge bırakır.",3
+2,"Güneş tutulmasında Ay’ın gölgesi Dünya’ya düşer, ay tutulmasında Dünya’nın gölgesi Ay’a düşer.",3
+2,"Her iki tutulmada da gölge açıkça bellidir: Güneş tutulmasında Ay, Ay tutulmasında Dünya gölge oluşturur.",3
+2,"Ay tutulması Dünya’nın gölgesinin Ay’a düşmesidir; güneş tutulması Ay’ın gölgesinin Dünya’ya düşmesidir.",3
+2,"Güneş tutulmasında Ay Dünya üzerine gölge düşürür; ay tutulmasında Dünya Ay üzerine gölge düşürür.",3
+2,"Ay’ın gölgesi Dünya’ya düştüğünde güneş tutulması; Dünya’nın gölgesi Ay’a düştüğünde ay tutulması meydana gelir.",3
+2,"Güneş tutulması Ay’ın gölgesinin Dünya’ya, Ay tutulması Dünya’nın gölgesinin Ay’a düşmesiyle oluşur.",3
