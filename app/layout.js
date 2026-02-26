@@ -1,8 +1,8 @@
 import "./globals.css";
 
 export const metadata = {
-  title: "TEZ - A.BALI",
-  description: "A.BALI",
+  title: "Arkplan Rubric AI",
+  description: "API'siz öğrenci yanıt değerlendirme uygulaması",
 };
 
 export default function RootLayout({ children }) {

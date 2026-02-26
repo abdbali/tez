@@ -8,8 +8,9 @@ export default function Home() {
   const [q1, setQ1] = useState("");
   const [q2, setQ2] = useState("");
   const [history, setHistory] = useState([]);
-  const [scores, setScores] = useState(null);
+  const [result, setResult] = useState(null);
   const [error, setError] = useState("");
+  const [showHistory, setShowHistory] = useState(false);
 
   useEffect(() => {
     try {
@@ -26,7 +27,7 @@ export default function Home() {
     window.localStorage.setItem(HISTORY_KEY, JSON.stringify(history));
   }, [history]);
 
-  const lastTenHistory = useMemo(() => history.slice(-10), [history]);
+  const historyRows = useMemo(() => [...history].reverse(), [history]);
 
   const submitAnswers = () => {
     setError("");
@@ -36,34 +37,35 @@ export default function Home() {
     }
 
     const entry = gradeAnswers({ studentId, q1, q2 });
-
-    setScores(entry.scores);
+    setResult(entry);
     setHistory((prev) => [...prev, entry]);
   };
 
   const clearHistory = () => {
     setHistory([]);
-    setScores(null);
+    setResult(null);
     window.localStorage.removeItem(HISTORY_KEY);
   };
 
   return (
-    <main style={{ padding: 40, maxWidth: 760, margin: "0 auto" }}>
-      <h1>Kısa Cevap Değerlendirme ML </h1>
-      <p>2026 </p>
+    <main style={{ padding: 40, maxWidth: 980, margin: "0 auto" }}>
+      <h1>Tutulma Rubrik Değerlendirme</h1>
+      <p>Sonuç bölümünde rubrik puanı ve geri bildirimler gösterilir.</p>
 
       <label htmlFor="studentId">Öğrenci ID</label>
       <input
         id="studentId"
         value={studentId}
         onChange={(e) => setStudentId(e.target.value)}
-        placeholder="Örn:123"
+        placeholder="örn. ogrenci123"
       />
 
-      <h3>Soru 1: Güneş tutulması, Ay hangi evredeyken ve günün hangi zamanında görülebilir? </h3>
+      <h3>1. Soru</h3>
+      <p>Güneş tutulması, Ay hangi evredeyken ve günün hangi zamanında görülebilir?</p>
       <textarea value={q1} onChange={(e) => setQ1(e.target.value)} />
 
-      <h3>Soru 2: Tutulma olayları sırasında hangi gök cisminin gölgesi hangi gök cisminin üzerine düşer?</h3>
+      <h3>2. Soru</h3>
+      <p>Tutulma olayları sırasında hangi gök cisminin gölgesi hangi gök cisminin üzerine düşer?</p>
       <textarea value={q2} onChange={(e) => setQ2(e.target.value)} />
 
       {error ? <p style={{ color: "#b00020", fontWeight: 600 }}>{error}</p> : null}
@@ -73,15 +75,59 @@ export default function Home() {
         Geçmişi Temizle
       </button>
 
-      {scores && (
-        <>
+      {result && (
+        <section>
           <h2>Sonuç</h2>
-          <pre>{JSON.stringify(scores, null, 2)}</pre>
-        </>
+          <p><strong>Toplam Rubrik Puanı:</strong> {result.totalScore} / 6</p>
+
+          <h3>Soru 1 Puanı: {result.scores.q1.score} / 3</h3>
+          <ul>
+            {result.scores.q1.feedback.map((item, idx) => (
+              <li key={`q1-${idx}`}>{item}</li>
+            ))}
+          </ul>
+
+          <h3>Soru 2 Puanı: {result.scores.q2.score} / 3</h3>
+          <ul>
+            {result.scores.q2.feedback.map((item, idx) => (
+              <li key={`q2-${idx}`}>{item}</li>
+            ))}
+          </ul>
+        </section>
       )}
 
-      <h2>Öğrenci Geçmişi (Son 10 Kayıt)</h2>
-      <pre>{JSON.stringify(lastTenHistory, null, 2)}</pre>
+      <section style={{ marginTop: 24 }}>
+        <button onClick={() => setShowHistory((s) => !s)}>
+          {showHistory ? "Geçmiş Tablosunu Gizle" : "Geçmiş Tablosunu Göster"}
+        </button>
+
+        {showHistory ? (
+          <div style={{ overflowX: "auto", marginTop: 12 }}>
+            <table className="history-table">
+              <thead>
+                <tr>
+                  <th>Öğrenci</th>
+                  <th>Tarih</th>
+                  <th>Q1</th>
+                  <th>Q2</th>
+                  <th>Toplam</th>
+                </tr>
+              </thead>
+              <tbody>
+                {historyRows.map((row, idx) => (
+                  <tr key={`${row.timestamp}-${idx}`}>
+                    <td>{row.student_id}</td>
+                    <td>{new Date(row.timestamp).toLocaleString("tr-TR")}</td>
+                    <td>{row.scores.q1.score}</td>
+                    <td>{row.scores.q2.score}</td>
+                    <td>{row.totalScore}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        ) : null}
+      </section>
     </main>
   );
 }
