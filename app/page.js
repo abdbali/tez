@@ -49,15 +49,15 @@ export default function Home() {
 
   return (
     <main style={{ padding: 40, maxWidth: 760, margin: "0 auto" }}>
-      <h1>Ark Planı — Değerlendirme (Vercel Uyumlu)</h1>
-      <p>Bu sürüm API gerektirmez; tüm puanlama tarayıcıda çalışır.</p>
+      <h1>Kısa Cevap Değerlendirme ML </h1>
+      <p>2026 </p>
 
       <label htmlFor="studentId">Öğrenci ID</label>
       <input
         id="studentId"
         value={studentId}
         onChange={(e) => setStudentId(e.target.value)}
-        placeholder="örn. ogrenci123"
+        placeholder="Örn:123"
       />
 
       <h3>Soru 1: Fotosentez nedir?</h3>
