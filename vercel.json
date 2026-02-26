@@ -1,7 +1,1 @@
-{
-  "functions": {
-    "api/grade/index.py": {
-      "maxDuration": 30
-    }
-  }
-}
+{}
