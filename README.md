@@ -7,7 +7,7 @@ Bu arayüz, aşağıdaki tez kapsamında açık uçlu yanıt değerlendirme dene
 
 ## Özellikler
 - Her soru için rubrik puanı ve geri bildirim gösterimi.
-- Soru başlıklarının üzerinde URL ile görsel ekleme alanları.
+- Soru başlıklarının üzerinde `public/assets/1.png` ve `public/assets/2.png` görsellerinin gösterimi.
 - Geçmiş kayıtların tablo olarak tutulması (ana sayfada varsayılan gizli).
 - API olmadan istemci tarafında çalışma.
 
@@ -21,3 +21,9 @@ npm run dev
 ```bash
 npm test
 ```
+
+## Soru Görselleri
+- Varsayılan binary görseller repodan kaldırıldı.
+- Lütfen kendi dosyalarınızı şu yollarla ekleyin:
+  - `public/assets/1.png`
+  - `public/assets/2.png`

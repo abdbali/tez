@@ -7,8 +7,6 @@ export default function Home() {
   const [studentId, setStudentId] = useState("");
   const [q1, setQ1] = useState("");
   const [q2, setQ2] = useState("");
-  const [q1ImageUrl, setQ1ImageUrl] = useState("");
-  const [q2ImageUrl, setQ2ImageUrl] = useState("");
   const [history, setHistory] = useState([]);
   const [result, setResult] = useState(null);
   const [error, setError] = useState("");
@@ -70,26 +68,12 @@ export default function Home() {
       />
 
       <h3>1. Soru</h3>
-      <label htmlFor="q1Image">Soru 1 Görsel URL (opsiyonel)</label>
-      <input
-        id="q1Image"
-        value={q1ImageUrl}
-        onChange={(e) => setQ1ImageUrl(e.target.value)}
-        placeholder="https://..."
-      />
-      {q1ImageUrl ? <img src={q1ImageUrl} alt="Soru 1 görseli" className="question-image" /> : null}
+      <img src="/assets/1.png" alt="Soru 1 görseli" className="question-image" />
       <p>Güneş tutulması, Ay hangi evredeyken ve günün hangi zamanında görülebilir?</p>
       <textarea value={q1} onChange={(e) => setQ1(e.target.value)} />
 
       <h3>2. Soru</h3>
-      <label htmlFor="q2Image">Soru 2 Görsel URL (opsiyonel)</label>
-      <input
-        id="q2Image"
-        value={q2ImageUrl}
-        onChange={(e) => setQ2ImageUrl(e.target.value)}
-        placeholder="https://..."
-      />
-      {q2ImageUrl ? <img src={q2ImageUrl} alt="Soru 2 görseli" className="question-image" /> : null}
+      <img src="/assets/2.png" alt="Soru 2 görseli" className="question-image" />
       <p>Tutulma olayları sırasında hangi gök cisminin gölgesi hangi gök cisminin üzerine düşer?</p>
       <textarea value={q2} onChange={(e) => setQ2(e.target.value)} />
 
