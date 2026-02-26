@@ -1,8 +1,8 @@
 import "./globals.css";
 
 export const metadata = {
-  title: "Arkplan Rubric AI",
-  description: "API'siz öğrenci yanıt değerlendirme uygulaması",
+  title: "Makine Öğrenmesi Tabanlı Açık Uçlu Yanıt Değerlendirme Modelinin Fen Eğitiminde Geliştirilmesi ve Öğretmen Puanlamalarıyla Tutarlılığının Karşılaştırmalı Analizi",
+  description: "Makine Öğrenmesi Tabanlı Açık Uçlu Yanıt Değerlendirme Modelinin Fen Eğitiminde Geliştirilmesi ve Öğretmen Puanlamalarıyla Tutarlılığının Karşılaştırmalı Analizi",
 };
 
 export default function RootLayout({ children }) {
