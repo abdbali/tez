@@ -49,8 +49,8 @@ export default function Home() {
 
   return (
     <main style={{ padding: 40, maxWidth: 980, margin: "0 auto" }}>
-      <h1>Tutulma Rubrik Değerlendirme</h1>
-      <p>Sonuç bölümünde rubrik puanı ve geri bildirimler gösterilir.</p>
+      <h1>Makine Öğrenmesi Tabanlı Açık Uçlu Yanıt Değerlendirme Modelinin Fen Eğitiminde Geliştirilmesi ve Öğretmen Puanlamalarıyla Tutarlılığının Karşılaştırmalı Analizi</h1>
+      <p></p>
 
       <label htmlFor="studentId">Öğrenci ID</label>
       <input
