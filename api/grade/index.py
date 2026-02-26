@@ -56,10 +56,10 @@ You must score ONLY according to the rubric given below and the reference exampl
 {reference_text}
 
 ### STUDENT ANSWERS
-Q1: Fotosentez nedir?
+Q1: Güneş tutulması, Ay hangi evredeyken ve günün hangi zamanında görülebilir?
 A1: {q1_answer}
 
-Q2: Isı ile sıcaklık arasındaki fark nedir?
+Q2: Tutulma olayları sırasında hangi gök cisminin gölgesi hangi gök cisminin üzerine düşer?
 A2: {q2_answer}
 
 ### TASK
