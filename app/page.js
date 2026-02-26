@@ -7,6 +7,8 @@ export default function Home() {
   const [studentId, setStudentId] = useState("");
   const [q1, setQ1] = useState("");
   const [q2, setQ2] = useState("");
+  const [q1ImageUrl, setQ1ImageUrl] = useState("");
+  const [q2ImageUrl, setQ2ImageUrl] = useState("");
   const [history, setHistory] = useState([]);
   const [result, setResult] = useState(null);
   const [error, setError] = useState("");
@@ -49,8 +51,15 @@ export default function Home() {
 
   return (
     <main style={{ padding: 40, maxWidth: 980, margin: "0 auto" }}>
-      <h1>Makine Öğrenmesi Tabanlı Açık Uçlu Yanıt Değerlendirme Modelinin Fen Eğitiminde Geliştirilmesi ve Öğretmen Puanlamalarıyla Tutarlılığının Karşılaştırmalı Analizi</h1>
-      <p></p>
+      <h1>Tez Çalışması: Açık Uçlu Yanıt Değerlendirme Modeli</h1>
+      <p>
+        Makine Öğrenmesi Tabanlı Açık Uçlu Yanıt Değerlendirme Modelinin Fen Eğitiminde Geliştirilmesi ve
+        Öğretmen Puanlamalarıyla Tutarlılığının Karşılaştırmalı Analizi
+      </p>
+      <p>
+        Development of a Machine Learning-Based Open-Ended Response Evaluation Model in Science Education and
+        a Comparative Analysis of Its Consistency with Teacher Scoring
+      </p>
 
       <label htmlFor="studentId">Öğrenci ID</label>
       <input
@@ -61,10 +70,26 @@ export default function Home() {
       />
 
       <h3>1. Soru</h3>
+      <label htmlFor="q1Image">Soru 1 Görsel URL (opsiyonel)</label>
+      <input
+        id="q1Image"
+        value={q1ImageUrl}
+        onChange={(e) => setQ1ImageUrl(e.target.value)}
+        placeholder="https://..."
+      />
+      {q1ImageUrl ? <img src={q1ImageUrl} alt="Soru 1 görseli" className="question-image" /> : null}
       <p>Güneş tutulması, Ay hangi evredeyken ve günün hangi zamanında görülebilir?</p>
       <textarea value={q1} onChange={(e) => setQ1(e.target.value)} />
 
       <h3>2. Soru</h3>
+      <label htmlFor="q2Image">Soru 2 Görsel URL (opsiyonel)</label>
+      <input
+        id="q2Image"
+        value={q2ImageUrl}
+        onChange={(e) => setQ2ImageUrl(e.target.value)}
+        placeholder="https://..."
+      />
+      {q2ImageUrl ? <img src={q2ImageUrl} alt="Soru 2 görseli" className="question-image" /> : null}
       <p>Tutulma olayları sırasında hangi gök cisminin gölgesi hangi gök cisminin üzerine düşer?</p>
       <textarea value={q2} onChange={(e) => setQ2(e.target.value)} />
 
@@ -78,7 +103,9 @@ export default function Home() {
       {result && (
         <section>
           <h2>Sonuç</h2>
-          <p><strong>Toplam Rubrik Puanı:</strong> {result.totalScore} / 6</p>
+          <p>
+            <strong>Toplam Rubrik Puanı:</strong> {result.totalScore} / 6
+          </p>
 
           <h3>Soru 1 Puanı: {result.scores.q1.score} / 3</h3>
           <ul>
