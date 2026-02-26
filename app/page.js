@@ -60,10 +60,10 @@ export default function Home() {
         placeholder="Örn:123"
       />
 
-      <h3>Soru 1: Fotosentez nedir?</h3>
+      <h3>Soru 1: Güneş tutulması, Ay hangi evredeyken ve günün hangi zamanında görülebilir? </h3>
       <textarea value={q1} onChange={(e) => setQ1(e.target.value)} />
 
-      <h3>Soru 2: Isı ile sıcaklık arasındaki fark nedir?</h3>
+      <h3>Soru 2: Tutulma olayları sırasında hangi gök cisminin gölgesi hangi gök cisminin üzerine düşer?</h3>
       <textarea value={q2} onChange={(e) => setQ2(e.target.value)} />
 
       {error ? <p style={{ color: "#b00020", fontWeight: 600 }}>{error}</p> : null}
