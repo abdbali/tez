@@ -1,0 +1,25 @@
+question_id,student_answer,score
+1,"Güneş tutulması dolunayda gece olur.",0
+1,"Ay’ın evresi önemli değildir, her zaman olabilir.",0
+1,"Güneş tutulması yaz aylarında akşam olur.",0
+1,"Güneş tutulması yeni aya yakın bir evrede gündüz gerçekleşir.",1
+1,"Ay yeni ay civarındayken sabah ya da öğlen görülebilir.",1
+1,"Ay Güneş ile aynı doğrultudayken gündüz gerçekleşir.",1
+1,"Güneş tutulması yeni ay evresinde ve gündüz saatlerinde görülür.",2
+1,"Yeni ayda, Ay Güneş ile aynı doğrultudayken gündüz gerçekleşir.",2
+1,"Ay yeni ay evresindeyken tutulma gündüz ortaya çıkar.",2
+1,"Güneş tutulması yalnızca yeni ay evresinde ve gündüz saatlerinde görülebilir.",3
+1,"Ay yeni ay konumundayken, Güneş'in önüne geçtiği için tutulma sadece gündüz görünür.",3
+1,"Ay’ın yeni ayda olması ve Güneş’in ufkun üstünde bulunması gerekir; yani gündüz olur.",3
+2,"Ay Güneş'in üzerine gölge düşürür.",0
+2,"Güneş tutulmasında Dünya Ay'a gölge düşürür.",0
+2,"Ay tutulmasında Güneş Ay'ın üzerine gölge düşürür.",0
+2,"Güneş tutulmasında Ay'ın gölgesi Dünya’ya gelir gibi oluyor.",1
+2,"Ay tutulmasında Dünya'nın gölgesi Ay'a düşüyor olabilir.",1
+2,"Tutulmada bir gölge Dünya’ya, diğerinde Ay’a düşüyor ama hangisi hangisi karıştırıyorum.",1
+2,"Güneş tutulmasında Ay’ın gölgesi Dünya'nın üzerine düşer.",2
+2,"Ay tutulmasında Dünya'nın gölgesi Ay'ın üzerine düşer.",2
+2,"Güneş tutulması Ay’ın gölgesinin Dünya’ya düşmesiyle oluşur.",2
+2,"Güneş tutulmasında Ay’ın gölgesi Dünya’nın üzerine düşer.",3
+2,"Ay tutulmasında Dünya’nın gölgesi Ay’ın üzerine düşer.",3
+2,"Güneş tutulması Ay’ın Dünya’ya gölge düşürmesiyle, Ay tutulması ise Dünya’nın Ay’a gölge düşürmesiyle oluşur.",3
